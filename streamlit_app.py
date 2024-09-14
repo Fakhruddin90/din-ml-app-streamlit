@@ -67,3 +67,10 @@ X = DNA_nucleotide_count(sequence)
 
 X
 
+### 2. Print text
+st.subheader('2. Print text')
+st.write('There are  ' + str(X['A']) + ' adenine (A)')
+st.write('There are  ' + str(X['T']) + ' thymine (T)')
+st.write('There are  ' + str(X['G']) + ' guanine (G)')
+st.write('There are  ' + str(X['C']) + ' cytosine (C)')
+
